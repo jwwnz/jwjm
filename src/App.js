@@ -10,7 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <div>Hello</div>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Amend <code>src/App.js</code> and save to reload.
           </p>
           <a
             className="App-link"
