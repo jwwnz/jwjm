@@ -1,3 +1,7 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .App {
   text-align: center;
 }
@@ -22,8 +26,18 @@
   color: #61dafb;
 }
 
+.landing-photo {
+  /* max-height: 50%; */
+  display: block;
+  max-width: 720px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
 .mainDiv {
   position: block;
+  text-align: center;
 }
 
 .padding-top {
