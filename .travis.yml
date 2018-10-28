@@ -3,14 +3,7 @@ node_js:
   - "stable"
 cache:
   directories:
-    - node_modules
+    - node_modules #Cache node_modules for faster builds
 script:
-  - npm test
-  - npm run build
-deploy:
-  provider: surge
-  skip_cleanup: true
-  domain: <my_name_here>.surge.sh
-  project: ./build/
-on:
-  branch: master
+  - npm test #Runs Tests
+  - npm run build #Creats a production build
