@@ -15,20 +15,7 @@ export default class Venue extends Component {
 
 
                     </div>
-                    <div className="card-content center">
-                        <div><em>"We will cherish every moment with each other in love."</em></div>
-                        <br/>
-                        <div><strong>It is our great privilege to welcome you to join us to celebrate our special moment where we become one through faith and love.</strong></div>
 
-                        <br/>
-                        <div>Won Moon-Seong & Cho Jung-Im's eldest son, Jongwoo</div>
-                        <div>Kim Dae Yoo & La Mimi's eldest daughter, Jimin</div>
-                        <br></br>
-
-                        <div><u>To be held on 12th January 2019 (Saturday) Afternoon 2:00pm.</u></div>
-                        <div>Lunamielle 12th Floor Convention Hall</div>
-
-                    </div>
                     <div className="padding-top center">
                         {/* Invitation card */}
                         <img src={InvitationImage0} alt="Invitation" className="img-thumbnail"></img>
