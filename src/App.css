@@ -26,9 +26,18 @@ body {
   color: #61dafb;
 }
 
+.card-content {
+  max-width: 500px;
+  font-size: 20px;
+}
+
 .carousel-inner{
   height: 600px;
   /* width: 300px; */
+}
+
+.center {
+  margin: 0 auto;
 }
 
 .landing-photo {
