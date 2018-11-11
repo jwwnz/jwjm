@@ -26,6 +26,11 @@ body {
   color: #61dafb;
 }
 
+.carousel-inner{
+  height: 600px;
+  /* width: 300px; */
+}
+
 .landing-photo {
   /* max-height: 50%; */
   display: block;
@@ -38,6 +43,11 @@ body {
 .mainDiv {
   position: block;
   text-align: center;
+}
+
+.navbar .navbar-nav {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
 }
 
 .padding-top {
