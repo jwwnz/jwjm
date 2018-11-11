@@ -34,7 +34,6 @@ export default function Carousel() {
             src={LandingPhoto2}
             alt="Second slide"
           />
-          >
         </div>
         <div className="carousel-item">
           <img
