@@ -40,6 +40,14 @@ body {
   margin: 0 auto;
 }
 
+.font-message {
+  font-family: 'Dancing Script', 'Times New Roman', Times, serif;
+}
+
+.font-special {
+  font-family: 'Alex brush', cursive;
+}
+
 .jumbotron {
   background-color: white;
 }
@@ -59,7 +67,7 @@ body {
 }
 
 .navbar .navbar-nav {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Alex brush', cursive, serif;
   font-size: 20px;
 }
 
