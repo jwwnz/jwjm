@@ -13,8 +13,8 @@ export default class Home extends Component {
           <div className="center">
             <Carousel />
           </div>
-          <div class="jumbotron jumbotron-fluid card-content center padding-top">
-            <div class="container font-message">
+          <div className="jumbotron jumbotron-fluid card-content center padding-top">
+            <div className="container font-message">
               {/* <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
               {/* <h2><em>"We will cherish every moment with each other in love."</em></h2> */}
               {/* <br /> */}
