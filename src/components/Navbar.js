@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <a className="navbar-brand" href=".">
-        JWJM 2019
+        JAMES+JIMIN
       </a>
       <button
         className="navbar-toggler"
@@ -22,7 +22,7 @@ export default function Navbar() {
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className="nav-link" to="/">
-              Home <span className="sr-only">(current)</span>
+              Home
             </Link>
           </li>
           <li className="nav-item">
@@ -32,7 +32,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link disabled" href=".">
-              Disabled
+              Korean Apps
             </a>
           </li>
         </ul>

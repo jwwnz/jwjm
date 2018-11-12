@@ -26,7 +26,6 @@ export default function Carousel() {
             src={LandingPhoto1}
             alt="First slide"
           />
-          >
         </div>
         <div className="carousel-item">
           <img
