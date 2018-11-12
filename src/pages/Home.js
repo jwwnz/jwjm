@@ -25,7 +25,7 @@ export default class Home extends Component {
               <div>Kim Dae Yoo & La Mimi's eldest daughter, Jimin</div>
               <br></br>
 
-              <div><u>To be held on 12th January 2019 (Saturday) Afternoon 2:00pm.</u></div>
+              <div><em>To be held on 12th January 2019 (Saturday) Afternoon 2:00pm.</em></div>
               <div><Link to="/venue">Lunamielle 12th Floor Convention Hall</Link> </div>
             </div>
           </div>
