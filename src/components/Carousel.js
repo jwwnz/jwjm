@@ -41,7 +41,6 @@ export default function Carousel() {
             src={LandingPhoto3}
             alt="Third slide"
           />
-          >
         </div>
       </div>
       <a
