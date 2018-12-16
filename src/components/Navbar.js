@@ -30,7 +30,8 @@ export default function Navbar() {
               The Venue
             </Link>
           </li>
-          <li className="nav-item">
+
+          {/* <li className="nav-item">
             <a className="nav-link disabled" href=".">
               Korean Apps
             </a>
@@ -39,7 +40,8 @@ export default function Navbar() {
             <a className="nav-link disabled" href=".">
               Our Story
             </a>
-          </li>
+          </li> */}
+
         </ul>
       </div>
 
