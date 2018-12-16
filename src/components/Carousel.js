@@ -107,6 +107,7 @@ export default function Carousel() {
             src={LandingPhoto10}
             alt="Tenth slide"
           />
+          
         </div>
       </div>
       <a
