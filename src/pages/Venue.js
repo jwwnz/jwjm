@@ -9,11 +9,17 @@ export default class Venue extends Component {
             <div className="container padding-top font-special">
                 <h1>Wedding Venue</h1>
                 <div className="row">
-                <Map/>
+                    <Map />
                     <div className="padding-top center">
                         {/* Invitation card */}
                         <img src={InvitationImage0} alt="Invitation" className="img-thumbnail"></img>
                         <img src={InvitationImage1} alt="Invitation" className="img-thumbnail"></img>
+
+                        <div className="font-message">
+                            <div><strong>Between</strong></div>
+                            <div>Won Moon-Seong & Cho Jung-Im's eldest son, Jongwoo</div>
+                            <div>Kim Dae Yoo & Ra Mimi's eldest daughter, Jimin</div>
+                        </div>
 
                     </div>
                 </div>

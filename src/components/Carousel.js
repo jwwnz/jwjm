@@ -7,7 +7,7 @@ export default function Carousel() {
   return (
     <div
       id="carouselExampleIndicators"
-      className="carousel slide"
+      className="carousel slide padding-medium"
       data-ride="carousel"
     >
       <ol className="carousel-indicators">

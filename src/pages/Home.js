@@ -7,39 +7,52 @@ export default class Home extends Component {
   render() {
     return (
       <div className="container padding-top">
-        <h1 className="font-special">James & Jimin</h1>
-
-        <div className="row">
-          <div className="center">
-            <Carousel />
+        <h2 className="font-special">We are getting married</h2>
+        <img
+          src="http://mcard.barunnfamily.com/Photos/201812/SS2658898/mainimage.PNG?ipignore=true&1544964903394" alt="종우와 지민이의 결혼식에 초대합니다."
+          className="padding-top landing-photo center"
+        />
+        <div className="container font-message">
+          {/* Invitation */}
+          <div className="padding-top ">
+            <h5>INVITATION</h5>
+            <div className="padding-medium font-message">It is our great privilege <br /> to invite you to join us in celebrating our special moment<br /> where we become one through faith and love.</div>
           </div>
-          <div className="jumbotron jumbotron-fluid card-content center padding-top">
-            <div className="container font-message">
-              {/* <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
-              {/* <h2><em>"We will cherish every moment with each other in love."</em></h2> */}
-              {/* <br /> */}
-              <h3 className="font-message">It is our great privilege to invite you to join us in celebrating our special moment where we become one through faith and love.</h3>
 
-              <br />
-              <div className="font-message">
-                <div><strong>Between</strong></div>
-                <div>Won Moon-Seong & Cho Jung-Im's eldest son, Jongwoo</div>
-                <div>Kim Dae Yoo & Ra Mimi's eldest daughter, Jimin</div>
-              </div>
+          {/* Location */}
+          <div className="padding-top">
+            <h5>LOCATION</h5>
+            <div className="padding-medium">To be held on 12th January 2019 (Saturday) Afternoon 2:00pm.</div>
+            {/* <div> */}
+            <Link to="/venue">CCMM Building, Lunamielle 12th Floor Convention Hall</Link>
+            {/* </div> */}
+            <Map />
+          </div>
 
-              <br></br>
-              <div>To be held on 12th January 2019 (Saturday) Afternoon 2:00pm.</div>
-              <div><Link to="/venue">Lunamielle 12th Floor Convention Hall</Link> </div>
-              <Map/>
+          {/* Photos */}
+          <div className="row">
+            <div className="padding-top center">
+              <h5>PHOTOS</h5>
+              <Carousel />
             </div>
           </div>
-          {/* <div className="card-content center padding-top">
 
+          {/* Message */}
+          <div className="padding-top">
+            <h5>CONGRATULATORY MESSAGE</h5>
+            <div className="padding-medium">
+              <a href='http://mcard.barunnfamily.com/SS2658898?c178#guest_book'>Click here to leave a congratulatory message.</a>
+            </div>
+            <br></br>
+          </div>
 
-            <br></br>
-            <br></br>
-            <br></br>
-          </div> */}
+        </div>
+
+        <br /><br />
+        <div className="card-content center padding-top">
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       </div>
     );
