@@ -1,14 +1,11 @@
 import React from 'react';
-import VideoSource from '../resources/prestigevideo.mp4';
 
 export default function Video() {
     return (
-        <div className="padding-medium center">
+        <div>
             {/* Map */}
-            <video width="100%" height="80%" controls>
-                <source src={VideoSource} type="video/mp4"/>
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="100%" height="345" src="https://www.dropbox.com/s/8ilc0w2uiq0a772/James%20Wedding%20Congrats.mp4?raw=1">
+            </iframe>
         </div>
     )
 }

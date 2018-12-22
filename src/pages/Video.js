@@ -9,12 +9,9 @@ export default class Video extends Component {
                 <div className="row">
                     <div className="padding-medium font-message">Prestige Law, James' previous workplace of 5 years sent us a touching video wishing us well for the wedding.</div>
 
-                    <div className="row">
-                        <div className="padding-medium">
-                            <VideoComponent />
-                        </div>
+                    <div className="padding-medium center">
+                        <VideoComponent />
                     </div>
-
 
                     <div className="padding-top font-message">Thank you to Royal and everyone at Prestige Law for taking the time to prepare and send this to us!
                         <br />
