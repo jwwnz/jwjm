@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Venue from "./pages/Venue";
+import Video from './pages/Video';
+
 
 class App extends Component {
   render() {
@@ -15,6 +17,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/venue" exact component={Venue} />
+            <Route path="/video" exact component={Video} />
           </Switch>
           <Footer />
 

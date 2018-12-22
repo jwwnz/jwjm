@@ -30,7 +30,11 @@ export default function Navbar() {
               The Venue
             </Link>
           </li>
-
+          <li className="nav-item">
+            <Link className="nav-link" to="/video">
+              Video
+            </Link>
+          </li>
           {/* <li className="nav-item">
             <a className="nav-link disabled" href=".">
               Korean Apps
