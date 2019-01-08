@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Venue from "./pages/Venue";
 import Video from './pages/Video';
+import WeddingDay from './pages/WeddingDay';
 
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/venue" exact component={Venue} />
             <Route path="/video" exact component={Video} />
+            <Route path="/weddingday" exact component={WeddingDay} />
           </Switch>
           <Footer />
 

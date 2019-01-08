@@ -26,6 +26,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/weddingday">
+              Wedding Day
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/venue">
               The Venue
             </Link>

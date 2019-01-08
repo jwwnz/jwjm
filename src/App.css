@@ -61,6 +61,10 @@ body {
   height: auto;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 .mainDiv {
   position: block;
   text-align: center;
