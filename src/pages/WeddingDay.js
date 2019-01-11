@@ -6,9 +6,12 @@ export default class Venue extends Component {
         return (
             <div className="container padding-top font-special">
                 <h1>Wedding Order</h1>
-                <embed src={Translation} type="application/pdf" width="100%" height="600px" />
+                <br></br>
+                <a href={Translation} target="_blank" className="font-message">Download full english transcript of wedding proceedings</a>
+                {/* <embed src={Translation} type="application/pdf" width="100%" height="600px" /> */}
                 <div className="row">
                     <div className="center font-message">
+                    <br></br>
                         <h2>First part</h2>
                         <ol className="list-none">
                             <li>Introduction of MC</li>
