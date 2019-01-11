@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Translation from "../resources/translation.pdf";
 
 export default class Venue extends Component {
     render() {
         return (
             <div className="container padding-top font-special">
                 <h1>Wedding Order</h1>
+                <embed src={Translation} type="application/pdf" width="100%" height="600px" />
                 <div className="row">
                     <div className="center font-message">
                         <h2>First part</h2>
